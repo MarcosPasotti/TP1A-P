@@ -1,0 +1,31 @@
+body {
+    font-family: 'Montserrat';
+    background-color: lightgrey;
+}
+header {
+    background-color:royalblue;
+    color: #fff;
+    padding: 1rem;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.LogoPagina {
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+  }
+
+.ColocarUsuario {
+    background-color: none;
+    height: 45px;
+  }
+
+.ingresarUsuario {
+    background-color: none;
+    height: 30px;
+    margin-left: 400px;
+    border-radius: 15px;
+    display: inline-block;
+  }
