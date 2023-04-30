@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;1,900&display=swap');
+
+
 body {
     font-family: 'Montserrat';
     background-color: lightgrey;
@@ -11,16 +14,20 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+header img{
+    height: 70%;
+    width: auto;
+  }
 .LogoPagina {
     height: 50px;
     margin: 5px;
     padding: 5px;
-  }
+}
 
 .ColocarUsuario {
     background-color: none;
     height: 45px;
-  }
+}
 
 .ingresarUsuario {
     background-color: none;
@@ -28,4 +35,4 @@ header {
     margin-left: 400px;
     border-radius: 15px;
     display: inline-block;
-  }
+}
