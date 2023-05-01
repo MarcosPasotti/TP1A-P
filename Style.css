@@ -35,7 +35,7 @@ header img{
     margin-left: 400px;
     border-radius: 15px;
     /*display: inline-block;*/
-    border:2px
+    border:none
 }
 .Espacio{
     height: 10px;
@@ -68,9 +68,9 @@ header img{
   
   
 .FotoPerfil img{
-    width: 100%;
+    width: 90%;
     height: 100%;
-    border-radius: 250px;
+    border-radius: 300px;
     border: 4px solid royalblue
 }
   
@@ -89,23 +89,83 @@ header img{
 .Seccion2{
     display: flex;
     justify-content: space-between;
+    width: 900px;
+    margin-left: 218px;
 }
 
 .Box2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
     background-color: whitesmoke;
     border-radius: 15px;
     width: 62%;
-    height: 900px;
+    height: 100%;
 
 }
+.TiempoPublicado{
+   /* justify-content: baseline;*/
+    margin-left: 10px;
+}
 .ImagenSubida{
-    width: 100px;
-    height: 400px;
-    margin-left: 1px;
+    width: 90%;
+    height: 90%;
+    margin-left: 10px;
+    margin-right: 5px;
 
+}
+.ImagenSubida img{
+    width: 530px;
+    height: 900px;
+}
+.BotonLike{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+
+.Like{
+    background-color: royalblue;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    margin-left: 10px;
+    margin-top: 10px
+}
+.contadorLike{
+    margin-right: 10px;
+}
+
+.Comentarios{
+    margin: 5px 5px 5px 5px;
+    
+}
+.EliminarComentario{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border:none;
+    color: red;
+}
+
+.ingresarComentario{
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: none;
+    width: 400px;
+    height: 35px;
+}
+.Comentar{
+    background-color: royalblue;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    margin-left: 10px;
+    margin-top: 10px
 }
 .Box3{
     display: flex;
@@ -115,4 +175,10 @@ header img{
     border-radius: 15px;
     width: 35%;
     height: 300px;
+}
+.Sobremi{
+    margin: 10px 10px 20px 20px;
+}
+.SM{
+    font-size: x-large;
 }
