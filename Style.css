@@ -30,9 +30,89 @@ header img{
 }
 
 .ingresarUsuario {
-    background-color: none;
+    background-color: white;
     height: 30px;
     margin-left: 400px;
     border-radius: 15px;
-    display: inline-block;
+    /*display: inline-block;*/
+    border:2px
+}
+.Espacio{
+    height: 10px;
+  }
+  
+.Seccion1{
+    display: flex;
+    justify-content: center;
+}
+  
+.Box1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    width: 900px;
+}
+
+.PerfilUsuario{
+    width: 400px;
+    height: 250px;
+}
+  
+.FotoPerfil{
+    width: 200px;
+    height: 175px;
+    margin-left: 45px;
+}
+  
+  
+.FotoPerfil img{
+    width: 100%;
+    height: 100%;
+    border-radius: 250px;
+    border: 4px solid royalblue
+}
+  
+
+.Seguir{
+    background-color: royalblue;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    margin-left: 10px;
+    margin-top: 150px;
+}
+
+.Seccion2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    width: 62%;
+    height: 900px;
+
+}
+.ImagenSubida{
+    width: 100px;
+    height: 400px;
+    margin-left: 1px;
+
+}
+.Box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    width: 35%;
+    height: 300px;
 }
