@@ -9,8 +9,7 @@ function Iniciar(){
     let MeGusta=document.getElementById('btnLike');
     MeGusta.addEventListener("click",DarMeGusta);
 
-    /*let QuitarMeGusta=document.getElementById('btnLike');   FALLA, HAY QUE ANALIZARLO MEJOR
-    QuitarMeGusta.addEventListener("click",SacarMeGusta);*/
+    
 }
 function SeguirUsuario(evento){
     evento.preventDefault();
@@ -74,33 +73,27 @@ function DarMeGusta(evento){
         CantMegusta++;
         SumadorMegusta.innerHTML= `${CantMegusta} Me gusta`;
         MeGusta.textContent='Quitar Me gusta';
+        
         return;
     }
+    if(MeGusta.textContent==='Quitar Me gusta')
+        {
+            let RestarMegusta=document.getElementById('CantLikes');
+            let CantMegusta= 4;
+            CantMegusta--;
+            RestarMegusta.innerHTML= `${CantMegusta} Me gusta`;
+            MeGusta.textContent='Me gusta';
+            return;
+        }
+
     else
     {
         MeGusta.textContent='Me gusta';
+        
         return;
     }
     
           
 }
 
-/*function SacarMeGusta(evento){
-    evento.preventDefault();
-    let QuitarMegusta=document.getElementById('btnLike');
-         if (QuitarMegusta.textContent==='Quitar Me gusta')
-         {
-            let RestarMegusta=document.getElementById('CantLikes');
-            let CantMegusta= 4;
-            CantMegusta--;
-            RestarMegusta.innerHTML= `${CantMegusta} Me gusta`;
-            QuitarMegusta.textContent='Me gusta';
-            return;
-        }
-        else
-        {
-            QuitarMegusta.textContent='Quitar Me gusta';
-            return;
-        }
-}*/
 
