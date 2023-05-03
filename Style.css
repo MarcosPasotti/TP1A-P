@@ -181,3 +181,8 @@ header img{
 .SM{
     font-size: x-large;
 }
+.ultimomensaje{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
