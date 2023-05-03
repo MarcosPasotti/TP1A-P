@@ -37,13 +37,11 @@ header img{
     /*display: inline-block;*/
     border:none
 }
-.Espacio{
-    height: 10px;
-  }
   
 .Seccion1{
     display: flex;
     justify-content: center;
+    margin-block-start: 15px;
 }
   
 .Box1{
@@ -81,7 +79,7 @@ header img{
     color: #fff;
     border: none;
     padding: 0.5rem 1rem;
-    margin-right: 1rem;
+    margin-right: 15px;
     margin-left: 10px;
     margin-top: 150px;
 }
@@ -91,6 +89,7 @@ header img{
     justify-content: space-between;
     width: 900px;
     margin-left: 218px;
+    margin-block-start: 15px;
 }
 
 .Box2{

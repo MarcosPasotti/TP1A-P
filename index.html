@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css">
+    <script src="PerfilUsu.js"></script>
     <title>Document</title>
 
 </head>
@@ -14,12 +15,11 @@
             <img src="https://i.imgur.com/Qx8uR89.png " alt="Logo GLOBO">
         </div>
         <div class="ColocarUsuario">
-            <input class="ingresarUsuario" type="text" id="Usuario" placeholder="Ingrese Usuario...">
+            <input class="ingresarUsuario" type="text" id="Usuario" placeholder="Ingrese Usuario..." required minlength="1">
         </div>
     </header>
 
-    <div class="Espacio"></div>
-
+    
     <section class="Seccion1">
         <div class="Box1">
             <div class="FotoPerfil">
@@ -34,13 +34,13 @@
                 <p>Trabajando en Central Atómica</p>
             </div>
             <div class="BotonSeguir">
-                <button class="Seguir" id="btnSeguir">Seguir</button>
+                <form action="">
+                    <button class="Seguir" id="btnSeguir">Seguir</button>
+                </form>
             </div>
 
         </div>
     </section>
-
-    <div class="Espacio"></div>
 
     <seccion class="Seccion2">
         <div class="Box2">
@@ -49,21 +49,28 @@
                 <img src="https://w0.peakpx.com/wallpaper/910/41/HD-wallpaper-space-night-sky-stars-homero-simpsons.jpg" alt="Universo">
             </div>
             <div class="BotonLike">
-                <button class="Like" id="btnLike">Me gusta</button>
-                <p class="contadorLike"><strong>200</strong>likes</p>
+                <form action="">
+                    <button class="Like" id="btnLike">Me gusta</button>
+                </form>
+                    <p class="contadorLike" id="CantLikes">3 Me gusta</p>
+                
             </div>
 
             <div class="Comentarios">
                 <h5>Comentarios</h5>
-                <p><strong>Flanders:</strong> Que foto tan perfectirigilla homero!!</p>
-                <p><strong>Marjorie:</strong> Ohh Homero, hermosa noche ♥♥</p>
-                <p><strong>Barney:</strong> Vamos por una cerveza Homero!</p>
+                <form>
+                    <p><strong>Flanders:</strong> Que foto tan perfectirigilla homero!!</p>
+                    <p><strong>Marjorie:</strong> Ohh Homero, hermosa noche ♥♥</p>
+                    <p><strong>Barney:</strong> Vamos por una cerveza Homero!</p>
+                    <p id="UltiComent"></p>
 
-                <button class="EliminarComentario" id="btnEliminar"><strong>Eliminar</strong></button><br>
+                    <button class="EliminarComentario" id="btnEliminar"><strong>Eliminar</strong></button><br>
 
                 
-                <input class="ingresarComentario" type="text" id="Coment" placeholder="Deja tu comentario...">
-                <button class="Comentar" id="btnComentar">Comentar</button>
+                    <input class="ingresarComentario" type="text" id="Coment" placeholder="Deja tu comentario...">
+                    <button class="Comentar" type="submit" id="btnComentar">Comentar</button>
+                </form>
+
             </div>
           
         </div>
