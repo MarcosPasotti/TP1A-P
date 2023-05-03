@@ -93,7 +93,7 @@ function DarMeGusta(evento){
             let RestarMegusta=document.getElementById('CantLikes');
             let CantMegusta= 4;
             CantMegusta--;
-            RestarMegusta.innerHTML= `${CantMegusta} Quitar Me gusta`;
+            RestarMegusta.innerHTML= `${CantMegusta} Me gusta`;
             QuitarMegusta.textContent='Me gusta';
             return;
         }
